@@ -1,6 +1,7 @@
 --[[
     Copyright by Raoul Origa
     Delay Library
+    If you have any question or problem join the discord server: https://discord.gg/drfsP4jCQH
 ]]
 
 local times = {}
