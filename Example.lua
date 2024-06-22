@@ -1,7 +1,7 @@
 --SETUP SCRIPT THIS SHOULD BE IN MAIN.LUA
 --Put TimerLibrary.lua inside SASL > data > modules > Custom Module
 
-library = {}
+library = {} --You will need to create this table
 
 local first = false
 
@@ -10,7 +10,7 @@ function draw()
 end
 
 components = {
-  TimerLibrary {0, 0, 10, 10},
+  TimerLibrary {0, 0, 10, 10}, -- You will need to get the script in this way
 }
 
 function firstCall()
@@ -25,5 +25,5 @@ end
 
 function update()
     firstCall()
-    updateAll(components)
+    updateAll(components) -- This is important to add too!
 end
